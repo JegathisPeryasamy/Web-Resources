@@ -1,0 +1,15 @@
+﻿configuration.setWallpaperJsonStructure(
+    new JsonStructure.Builder("wallpapers")
+        .name("Arrow 1")
+        .author("Mr.Panda")
+        .url("https://drive.google.com/open?id=1-AdcgkGOp7vPKA9fzU-gKMDPB4vyrYyR")
+        .thumbUrl(null)
+        .build());
+
+configuration.setWallpaperJsonStructure(
+    new JsonStructure.Builder("wallpapers")
+        .name("Arrow 2")
+        .author("Mr.Panda")
+        .url("https://drive.google.com/open?id=1GPoAwNCl75IbPBmKNcYPWhfLlzPEOFa0")
+        .thumbUrl(null)
+        .build());
