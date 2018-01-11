@@ -1,15 +1,17 @@
-﻿configuration.setWallpaperJsonStructure(
-    new JsonStructure.Builder("wallpapers")
-        .name("Arrow 1")
-        .author("Mr.Panda")
-        .url("https://drive.google.com/open?id=1-AdcgkGOp7vPKA9fzU-gKMDPB4vyrYyR")
-        .thumbUrl(null)
-        .build());
+{
+    "Wallpapers":
+        [
+	    {
+		"author": "Mr.Panda",
+		"url": "https://drive.google.com/open?id=1-AdcgkGOp7vPKA9fzU-gKMDPB4vyrYyR",
+		"name": "Arrrow 1"
 
-configuration.setWallpaperJsonStructure(
-    new JsonStructure.Builder("wallpapers")
-        .name("Arrow 2")
-        .author("Mr.Panda")
-        .url("https://drive.google.com/open?id=1GPoAwNCl75IbPBmKNcYPWhfLlzPEOFa0")
-        .thumbUrl(null)
-        .build());
+	    },
+	    {
+                "author": "Mr.Panda",
+		"url": "http://www.gadgetraid.com/wp-content/uploads/2016/07/android-n-nougat-wallpaper-2.jpg",
+		"name": "Arrow 2"
+	    }
+        ]
+}
+
